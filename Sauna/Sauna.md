@@ -2,7 +2,7 @@
 
 ​				
 
-![](/home/strawhack/Music/Hacking/HTB/Sauna/Photos/1.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Sauna/Photos/1.png)
 
 ​					
 
@@ -64,9 +64,9 @@ We see few interesting port open, especially Port 389, Port 445 and Port 80. Loo
 
 
 
-![Possible USers](/home/strawhack/Music/Hacking/HTB/Sauna/Photos/2.png)
+![Possible USers](https://github.com/Strawhack/HackTheBox/blob/master/Sauna/Photos/2.png)
 
-![Possible User](/home/strawhack/Music/Hacking/HTB/Sauna/Photos/3.png)
+![Possible User](https://github.com/Strawhack/HackTheBox/blob/master/Sauna/Photos/3.png)
 
 
 
@@ -104,7 +104,7 @@ With the above list along with GetNPUsers.py from Impacket, we can try to extrac
 
 To determine the above hash format, we look at hashcat hash example.
 
-![](/home/strawhack/Music/Hacking/HTB/Sauna/Photos/4.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Sauna/Photos/4.png)
 
 We crack the above hash using Hashcat.
 
