@@ -2,7 +2,7 @@
 
 
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/Mainimage.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/Mainimage.png)
 
 
 
@@ -431,9 +431,9 @@ smb: \> dir
 
 Download the above files on local system.  We see a folder named DB, opening which we see a file named Audit.db. The database file is of SQLite database. Lets open the database file in SQLite.
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/1.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/1.png)
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/2.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/2.png)
 
 
 
@@ -441,11 +441,11 @@ Switching to Windows Machine, I proceed by importing all the files in a tool nam
 
 Going through the files, i find the a hard coded key to decrypt the password.
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/3.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/3.png)
 
 Clicking DecryptString, takes us to the DecryptString function.
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/4.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/4.png)
 
 So making a note of all information which will help us to get decrypt the password.
 
@@ -460,7 +460,7 @@ So making a note of all information which will help us to get decrypt the passwo
 
 Using Online tool to decrypt we get the decrypted password for the user ArkSvc
 
-![](/home/strawhack/Videos/Youtube_myVideo/HTB/Cascade/Picture/5.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Cascade/Image/5.png)
 
 
 
