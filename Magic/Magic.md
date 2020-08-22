@@ -1,6 +1,6 @@
 # Magic HackTheBox
 
-![](/home/strawhack/Videos/Git/Magic/Image/1.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/1.png)
 
 
 
@@ -33,21 +33,21 @@ Opening Port 80 in browser, we see
 
 
 
-![](/home/strawhack/Videos/Git/Magic/Image/2.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/2.png)
 
 At the bottom of the page, we see __"Login"__. Clicking it, we are prompted with a Login prompt.
 
-![]()![3](/home/strawhack/Videos/Git/Magic/Image/3.png)
+![]()![3](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/3.png)
 
 Trying basic SQL Injection 
 
 
 
-![](/home/strawhack/Videos/Git/Magic/Image/4.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/4.png)
 
 We successfully login and are provided with __"Upload Image"__  option.
 
-![](/home/strawhack/Videos/Git/Magic/Image/5.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/5.png)
 
 Uploading a image file, the file gets uploaded. To find the location where the file gets saved, lets run a tool named Gobuster.
 
@@ -92,11 +92,11 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 Lets check whether our image file named kenshin.jpeg is saved in /images/uploads
 
-![](/home/strawhack/Videos/Git/Magic/Image/6.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/6.png)
 
 We know the location where files get saved. Trying to upload a PHP Reverse Shell we get the following error.
 
-![](/home/strawhack/Videos/Git/Magic/Image/7.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/7.png)
 
 
 
@@ -116,11 +116,11 @@ Lets upload the file and try access it.
 
 
 
-![](/home/strawhack/Videos/Git/Magic/Image/8.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/8.png)
 
 We have a code execution. Lets try to ping our system, we get a response.
 
-![](/home/strawhack/Videos/Git/Magic/Image/9.png)
+![](https://github.com/Strawhack/HackTheBox/blob/master/Magic/Image/9.png)
 
 Its time for Reverse Shell. Taking the code from [PenTest Monkey](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet), 
 
